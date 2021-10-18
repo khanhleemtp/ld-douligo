@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Học",
+        "link": "learn",
+        "src": "imgHome/home.svg",
+        "alt": "học"
+    },
+    {
+        "title": "Thảo luận",
+        "link": "forum",
+        "src": "imgHome/chat.svg",
+        "alt": "thảo luận"
+    },
+    {
+        "title": "Người dùng",
+        "link": "user",
+        "src": "imgHome/user.svg",
+        "alt": "người dùng"
+    }
+]

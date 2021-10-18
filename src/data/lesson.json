@@ -1,0 +1,76 @@
+{   
+    "type": "basic1",
+    "currentLevel": 1,
+    "targetScore": 30,
+    "maxScore": 70,
+    "maxLevel": 5,
+    "questions": [
+        {
+            "id": "1",
+            "type": "imageChoice",
+            "score": 10,
+            "title": "Đâu là tiếng anh",
+            "correctAnswer": "English",
+            "answers": [
+                {
+                    "id": "1",
+                    "image": "/questions/imgChoice/cake.svg",
+                    "title": "Cake",
+                    "isCorrect": false,
+                    "tts": "/questions/imgChoice/cake.mp3"
+                },
+                {
+                    "id": "2",
+                    "image": "/questions/imgChoice/tea.svg",
+                    "title": "Tea",
+                    "isCorrect": false,
+                    "tts": "/questions/imgChoice/tea.mp3"
+                },
+                {
+                    "id": "3",
+                    "image": "/questions/imgChoice/english.svg",
+                    "title": "English",
+                    "isCorrect": true,
+                    "tts": "/questions/imgChoice/english.mp3"
+                }
+            ]
+        }, 
+        {
+            "type": "textInput",
+            "id": "2",
+            "score": 10,
+            "image": "/questions/imgChoice/person.svg",
+            "header": "We have rice",
+            "placeholder": "Nhập bằng Tiếng Việt", 
+            "title": "Viết lại bằng Tiếng Việt",
+            "correctAnswer": "Chúng tôi có gạo",
+            "answers": ["Chúng tôi có gạo", "Chúng tôi có cơm"]
+        },
+        {
+            "type": "textChoice",
+            "id": "3",
+            "score": 10,
+            "header":"Đánh dấu nghĩa đúng",
+            "title": "Vâng chúng tôi nói tiếng anh",
+            "correctAnswer": "Yes, we speak English",
+            "answers": [
+                {
+                    "id": "1",
+                    "title": "Yes, we speak English",
+                    "isCorrect": true
+                },
+                {
+                    "id": "2",
+                    "title": "Yes, we can speak Milk",
+                    "isCorrect": false
+                },
+                {
+                    "id": "3",
+                    "title": "Yes, we can speak Sugar",
+                    "isCorrect": false
+                }
+            ]
+
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "short_name": "LD Edu",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "mario.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "imgHome/egg-1.svg",
+      "type": "image/svg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "imgHome/egg-2.svg",
+      "type": "image/svg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
